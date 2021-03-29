@@ -1,5 +1,5 @@
 # file type
-*.Rproj
+*.Rproj.user
 .Rhistory
 .RData
 .Ruserdata
