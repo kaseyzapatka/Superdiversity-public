@@ -1,4 +1,15 @@
+# file type
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+*.DS_Store
+*.xlsx
+*.xls
+*.dta
+
+# folders
+_outs/
+archived/
+Raw/
+sample_data
