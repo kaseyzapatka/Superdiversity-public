@@ -1,8 +1,6 @@
-# Department of Homeland Security, Yearbook of Immigration Statistics, 1998 - 2019
+# DHS, Yearbook of Immigration Statistics, 1998 - 2019
 
-Directory for analyses. 
-
-Analysis
+Directory of analyses
 
 ---
 
