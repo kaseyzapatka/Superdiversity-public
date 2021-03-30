@@ -1,4 +1,11 @@
-# Superdiversity-public
-Public-facing superdiversity files for project with Max Planck Institute.
+# Superdiversity-NYC 
 
-A short [Tree diagram analysis and visualization can be seen here](https://kaseyzapatka.github.io/Superdiversity-public/Immigration-plots.html) that might be useful for the website text write-up. 
+Directory for analysis of superdiversity-NYC data in collaboration with the Max Planck Institute.
+
+
+Analysis
+
+---
+
+
+ - Short [analysis of tree diagram visualizations](https://kaseyzapatka.github.io/Superdiversity-public/Immigration-plots.html) meant to accompany write-up. 
