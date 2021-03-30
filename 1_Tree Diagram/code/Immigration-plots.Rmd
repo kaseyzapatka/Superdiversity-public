@@ -1,6 +1,6 @@
 ---
 title: "Immigration Plots"
-subtitle: "Plots are based on Department of Homeland Security, Yearbook of Immigration Statistics"
+subtitle: "Plots are based on Department of Homeland Security, Yearbook of Immigration Statistics, 1998 - 2019"
 author: "Kasey Zapatka"
 date: "`r Sys.Date()`"
 output: html_document
@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 
 # Description
 
-This file explores some of the interesting patters in the United States immigration data associated with the Superdiversity data. Specifically, this file explores immigration over time by region and for the top 25 sending countries, for both temporary and permanent categories of immigration. 
+This file explores some of the interesting patters in the United States immigration data associated with the Superdiversity project. Using data from the Yearbook of Immigration Statistics between 1998 and 2019, we explore  immigration over time by region and for the top 25 sending countries, for both temporary and permanent immigration categories. 
 
 <br>
 
@@ -145,9 +145,21 @@ barchart_TR <- function(data, column, labels = scales::comma) {
 
 ```
 
+
+
 <br>
 
-### Family-based immigration by region 
+### Immigration by region 
+
+The following line graphs report the number of visas receive by region (Africa, Americas, Asia, Europe, Oceania, and an unknown category) for family, diversity, and refugee/asylee-based immigration.
+
+<br>
+
+-----
+
+<br>
+
+**Family-based immigration by region** 
 
 Salient here is that immigration from sending countries by region is relatively unchanged over the study period. American and Asian sending countries dominate the number of family-based immigrants and remain unchanged, whereas immigration for European countries dips below that of African countries after around 2010.
 
@@ -169,9 +181,9 @@ family_based
 
 <br>
 
-### Diversity-based immigration by region 
+**Diversity-based immigration by region** 
 
-Before about 2004, the most diversity-based visa were issued to immigrants from European sending countries. That changed abound 2006, where immigrants from African sending countries began to receive more diversity-based visas. In 2018, European immigration via diversity-based immigration peak and then precipitously decline while African diversity-based visas increased once again  Immigration from Asian sending countries remained consistent over the study period. 
+Before about 2004, most diversity-based visa were issued to immigrants from European sending countries. That changed abound 2006, where immigrants from African sending countries began to receive more diversity-based visas. In 2018, European immigration via diversity-based immigration peak and then precipitously decline while African diversity-based visas increased once again Immigration from Asian sending countries remained consistent over the study period. 
 
 <br>
 
@@ -192,7 +204,7 @@ diversity_based
 
 <br>
 
-### Refugee/Asylee-based immigration by region 
+**Refugee/Asylee-based immigration by region** 
 
 There is a lot more fluctuation in regards to Refugee/Asylee-based immigration into the United States between 1998 and 2019. Perhaps the most important trends is the peak in Asian Refugee/Asylee-based immigration around 2008 and its quick decline in 2016. Refugee/Asylee-based immigration from American countries steadily rises around 2013, but similarly to Asian immigration, declines around 2018, likely in response to Trump Administration Refugee/Asylee-based immigration policy. 
 
@@ -215,7 +227,7 @@ refugee_asylee
 
 <br>
 
-### Temporary workers by region 
+**Temporary workers by region** 
 
 For non-permanent, temporary workers, there is an explosion of around 2008 for American workers that somewhat declines in parallel to the Great Recession of 2009 but steadily rebounds after 2013. We also see steady increases in Asian and European temporary worker immigration of the entire study period. 
 
@@ -238,7 +250,7 @@ tempworkers
 
 <br>
 
-### Students Visas by region 
+**Student visas by region** 
 
 Around 2009, there was a dramatic rise in student visas being issued to students from American countries; however, the most telling story is the steady increase of visas issued to students from Asian sending countries. 
 
@@ -259,10 +271,22 @@ students
 
 ```
 
+
+<br>
+
+### Top 25
+
+The following bar charts report the top 25 sending countries by year that received the most number of student, temporary worker, and diplomat visas. Note that the bar charts are animated, meaning they will reveal the top 25 for every year over the study period. You will notice there are more than 25 countries listed on the y-axis. This is because the 25 countries in a given year were not always the same. 
+
+<br>
+
+-----
+
+
 <br>
 
 
-### Top 25 Student Sending Countries by Year
+**Top 25 Student Sending Countries by Year** 
 
 Asian countries like China, Korea, or Japan were receiving the majority of student visas until about 2009 or 2010 when Canada and Mexico received a larger share of students visa. After about 2012, China dominated the student visa reception. 
 
@@ -291,7 +315,7 @@ animate(barchart_students,
 
 <br>
 
-### Top 25 Temporary Worker Sending Countries by Year
+**Top 25 Temporary Worker Sending Countries by Year** 
 
 After about 2000, four countries were receiving the lion's share of temporary workers: Canada, Mexico, India, and Japan. The explosion of Canada and Mexico in 2009 is likely the result of administrative changes in how temporary worker visas were classified. 
 
@@ -319,7 +343,7 @@ animate(barchart_tempworker,
 
 <br>
 
-### Top 25 Diplomat Sending Countries by Year
+**Top 25 Diplomat Sending Countries by Year** 
 
 The United Kingdom consistently receives the highest number of diplomat visas across the entire study period. Other well-known allies of the United States like Korea (which later were reclassified to South Korea), Mexico, and several western European countries receive the majority of diplomat visas.
 
