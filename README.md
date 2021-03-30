@@ -1,7 +1,6 @@
-# Superdiversity-NYC 
+# Department of Homeland Security, Yearbook of Immigration Statistics, 1998 - 2019
 
-Directory for analysis of superdiversity-NYC data in collaboration with the Max Planck Institute.
-
+Directory for analyses. 
 
 Analysis
 
