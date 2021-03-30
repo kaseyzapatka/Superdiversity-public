@@ -7,4 +7,4 @@ Analysis
 ---
 
 
- - Short [analysis of tree diagram visualizations](https://kaseyzapatka.github.io/Superdiversity-public/Immigration-plots.html) meant to accompany write-up. 
+ - Analysis of [top sending countries by region and top 25 sending countries](https://kaseyzapatka.github.io/Superdiversity-public/Immigration-plots.html)
